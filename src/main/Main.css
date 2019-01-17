@@ -1,0 +1,49 @@
+#todo {
+  text-align: center;
+}
+
+#add-todo input[type=text] {
+  height: 25px;
+  padding: 0px 10px;
+  border-radius: 5px;
+  outline: none;
+  min-width: 500px
+}
+
+#add-todo input[type=submit] {
+  background-color: black;
+  color: white;
+  height: 25px;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+
+ul {
+  position: relative;
+  max-width: 700px;
+  margin: auto;
+  margin-top: 25px;
+}
+
+li {
+  list-style: none;
+  style: block;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin: -2px 0px 0px 0px;
+  padding:10px;
+  text-transform: capitalize;
+}
+
+  li:hover {
+    text-decoration: line-through;
+  }
+
+.close {
+  cursor: pointer;
+  position: absolute;
+  right: 0%;
+  padding-right: 10px;
+
+}
